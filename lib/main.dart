@@ -6,7 +6,7 @@ Future<void> main() async {
 
   await Supabase.initialize(
     url: 'https://vfwekpwnfgiforqvmjph.supabase.co/rest/v1/',
-    anonKey: 'sb_publishable_WtqD32vdb2R0eXNQn4O5hw_7FXn8iNz',
+    publishableKey: 'sb_publishable_WtqD32vdb2R0eXNQn4O5hw_7FXn8iNz',
   );
 
   runApp(const AlfaazEArshApp());
